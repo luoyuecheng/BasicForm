@@ -1,0 +1,76 @@
+form .ant-select, form .ant-cascader-picker {
+    width: 100%;;
+}
+
+.basic-form-item {
+    line-height: 1.5;
+    margin-bottom: 24px;
+    vertical-align: top;
+}
+
+.basic-form-item.has-error {
+    margin-bottom: 0;
+}
+
+.basic-form-item.has-error .basic-form-item-explain,
+.basic-form-item.has-error .basic-form-item-explain-info {
+    color: #f5222d;
+    display: block;
+}
+
+.basic-form-item .ant-checkbox-wrapper {
+    height: 32px;
+    line-height: 32px;
+}
+
+.basic-form-item-label {
+    overflow: hidden;
+    text-align: right;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.basic-form-item-label-left {
+    text-align: left;
+}
+
+.basic-form-item-label > label {
+    align-items: center;
+    color: rgba(0, 0, 0, .85);
+    display: inline-flex;
+    font-size: 14px;
+    height: 32px;
+    position: relative;
+}
+
+.basic-form-item-label > label::after {
+    content: ":";
+    position: relative;
+    top: -.5px;
+    margin: 0 8px 0 2px;
+}
+
+.basic-form-item-control {
+    line-height: 32px;
+    position: relative;
+}
+
+.basic-form-item-explain-info {
+    position: absolute;
+    top: 0;
+    right: -22px;
+    display: none;
+}
+
+.basic-form-item-explain {
+    line-height: 1.5;
+}
+
+.basic-form-item-required::before {
+    content: "*";
+    display: inline-block;
+    margin-right: 4px;
+    color: #f5222d;
+    line-height: 1;
+}
